@@ -1,0 +1,28 @@
+{
+  "name": "doer-backend",
+  "version": "1.0.0",
+  "description": "DOER - The Execution Engine - Supabase Backend",
+  "private": true,
+  "scripts": {
+    "db:start": "supabase start",
+    "db:stop": "supabase stop",
+    "db:reset": "supabase db reset",
+    "db:push": "supabase db push",
+    "db:diff": "supabase db diff",
+    "db:migrate": "supabase migration up",
+    "db:status": "supabase status",
+    "functions:serve": "supabase functions serve",
+    "functions:deploy": "supabase functions deploy",
+    "functions:deploy:all": "supabase functions deploy complete-task && supabase functions deploy promote-task && supabase functions deploy reorder-tasks && supabase functions deploy weekly-stats",
+    "link": "supabase link",
+    "gen:types": "supabase gen types typescript --local > types/database.types.ts"
+  },
+  "keywords": [
+    "doer",
+    "productivity",
+    "supabase",
+    "backend"
+  ],
+  "author": "",
+  "license": "MIT"
+}

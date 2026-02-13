@@ -1,0 +1,34 @@
+# iOS
+## Xcode
+build/
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcuserstate
+*.xcscmblueprint
+
+## SPM
+.build/
+.swiftpm/
+Package.resolved
+
+## CocoaPods
+Pods/
+
+## Misc
+.DS_Store
+**/xcshareddata/IDEWorkspaceChecks.plist
+
+## Secrets
+**/Config.secrets.swift

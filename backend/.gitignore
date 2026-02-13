@@ -1,0 +1,4 @@
+# Backend (Supabase)
+.env
+.env.local
+.temp/
